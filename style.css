@@ -3,7 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.h1 {
+  font-family: "Irish Grover", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
 .section1 {
+         font-family: "Irish Grover", system-ui;
+  font-weight: 400;
+  font-style: normal;
     
     
         background-image: linear-gradient(to right, red, rgb(105, 10, 10));
@@ -16,6 +25,9 @@
 }
 
 .section2 {
+         font-family: "Irish Grover", system-ui;
+  font-weight: 400;
+  font-style: normal;
         background-color: rgb(216, 100, 36);
         text-align: center;
         
@@ -40,6 +52,9 @@
 
 
 .section3 {
+         font-family: "Irish Grover", system-ui;
+  font-weight: 400;
+  font-style: normal;
         background-color: rgb(243,228,187);
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -48,13 +63,40 @@
         height: 33vh;
 }
 
+.pictures {
+        position: relative;
+        width:500px;
+        height: 300px
+}
+.burger {
+        position:absolute;
+        left: 30%;
+
+}
+
 .detail  {
         position: absolute;
-        left: 15%;
-        top: 15%;
+        width: 70px;
+        height: 70px;
+        left: 1px ;
+        top: 0%;
 }
 .detail2 {
         position: absolute;
-        right: 4%;
-        bottom: 60%
+        width:70px ;
+        height:70px ;
+        right: 1%;
+        bottom: 63%;
+        transform: scaleX(-1);
+        top:72%;
+        right: 14%;
+        rotate: 17deg;
+
 }
+
+
+.h1 {
+
+}
+
+
