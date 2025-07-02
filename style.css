@@ -97,3 +97,20 @@
 
 }
 
+/* Styles par défaut pour les grands écrans */
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Styles pour les écrans de 768px ou moins (tablettes et smartphones) */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+
+
+
+
